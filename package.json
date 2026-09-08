@@ -1,0 +1,16 @@
+{
+  "name": "hiking-nav-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first hiking navigation app (mobile) and backend (later phase)",
+  "workspaces": [
+    "apps/*"
+  ],
+  "license": "UNLICENSED",
+  "scripts": {},
+  "dependencies": {
+    "expo": "~57.0.16",
+    "react": "19.2.3",
+    "react-native": "0.86.2"
+  }
+}

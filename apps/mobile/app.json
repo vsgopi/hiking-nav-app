@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Hiking Nav",
+    "slug": "hiking-nav-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hikingnavapp.mobile"
+    },
+    "android": {
+      "package": "com.hikingnavapp.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-dev-client",
+      "expo-sqlite",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Hiking Nav uses your location to show your position on the trail."
+        }
+      ],
+      "@maplibre/maplibre-react-native"
+    ]
+  }
+}
